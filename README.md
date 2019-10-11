@@ -1,16 +1,23 @@
 # this_vid2
-The objectively best Twitter video downloader bot.
+The revival of the objectively best Twitter video downloader bot ever known =^)
 
-[If you want to self-host this, I suggest doing these things.](https://twitter.com/TheEssem/status/1179800410120474625)
+## How to get Started!
+You have to use bash (or terminal) in something like Ubuntu or something nerdy like that.
 
-## Usage
-Requires Node.js, FFmpeg, and SQLite3:
+This bad boy requires Node.js, FFmpeg, and SQLite3:
 
 ```shell
 sudo apt install nodejs ffmpeg sqlite3
 ```
+Next you gotta make sure everything is extracted neatly in a lil' folder, yeah?
+And then you make sure that the terminal is in the folder you extraced everything
+into with cd then the directory...
+```shell
+cd /Downloaded/using/this__vid3/
+```
+Just replace the /Downloaded/using/this__vid3/ with the actual directory though.
 
-Once they're installed, install the required modules using npm:
+You got it? Yeah? Well when they're installed, install the required modules using npm:
 ```shell
 npm install
 ```
@@ -30,3 +37,5 @@ This is a parody of video downloader bots and does not actually send users downl
 **I AM NOT RESPONSIBLE FOR ANYTHING THAT HAPPENS TO YOUR ACCOUNT AS A RESULT OF HOSTING THIS.**
 
 Original @this_vid by [shalvah](https://twitter.com/theshalvah).
+
+Original @this_vid2 by [TheEssem](https://twitter.com/TheEssem).
