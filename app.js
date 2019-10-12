@@ -48,7 +48,7 @@ stream.on("tweet", async (tweet) => {
             const tweets = tweetsArray !== undefined ? tweetsArray : [];
             const cooldownArray = await db.get("cooldown");
             const cooldown = cooldownArray !== undefined ? cooldownArray : [];
-            if (!tweets.includes(originalTweet.data.id_str) && !cooldown.includes(tweet.user.id_str)) {
+            if (!tweets.includes(originalTweet.data.id_str)) {
               const url = await getVideoURL(originalTweet.data, client);
               if (url !== undefined) {
                 const videoData = await fetch(url);
@@ -78,11 +78,21 @@ stream.on("tweet", async (tweet) => {
                 const messages = [
                   "Downloaded!",
                   "Here's your video!",
-                  "TAke a look, y'all:",
+                  "Take a look, y'all:",
                   "Check it out:",
                   "Done!",
                   "Download complete!",
                   "Uploaded!",
+				  "Here you go!",
+				  "I got it!",
+				  "Easy!",
+				  "I'm here!",
+				  "Don't Worry! =)",
+				  "Gotcha!",
+				  "Like this?",
+				  "Beep boop",
+				  "Sure thing!",
+				  "Got it boss!",
                   "Sorted. 👍",
                   "I got it!",
                   `Your video has been downloaded, @${tweet.user.screen_name}!`,
