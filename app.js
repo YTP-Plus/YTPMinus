@@ -48,7 +48,7 @@ stream.on("tweet", async (tweet) => {
             const tweets = tweetsArray !== undefined ? tweetsArray : [];
             const cooldownArray = await db.get("cooldown");
             const cooldown = cooldownArray !== undefined ? cooldownArray : [];
-            if (!tweets.includes(originalTweet.data.id_str)) {
+            if (!tweets.includes(originalTweet.data.id_str) && !cooldown.includes(tweet.user.id_str)) {
               const url = await getVideoURL(originalTweet.data, client);
               if (url !== undefined) {
                 const videoData = await fetch(url);
