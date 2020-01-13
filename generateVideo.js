@@ -131,8 +131,6 @@ module.exports = (filename, handle) => {
       ffmpeg(filename).input("./assets/outro.mp4").duration(duration + 5).videoBitrate(150).fps(5).audioChannels(1).audioBitrate(8).complexFilter(filters, ["v", "a"]).on("end", () => {
         resolve(outputFilename);
       }).save(outputFilename);
-      }
     });
   });
 };
-
