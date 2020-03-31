@@ -1,13 +1,11 @@
 {
-  "name": "this_vid2",
+  "name": "ytpminus",
   "version": "1.0.1",
-  "description": "The objectively best Twitter video downloader bot",
+  "description": "The objectively best YTP generator",
   "main": "app.js",
   "dependencies": {
     "fluent-ffmpeg": "^2.1.2",
-    "fs-extra": "^8.1.0",
-    "node-fetch": "^2.3.0",
-    "twit": "github:tykarol/twit"
+    "fs-extra": "^8.1.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -15,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheEssem/this_vid2.git"
+    "url": "git+https://github.com/YTPPlus/YTPMinus.git"
   },
   "engines": {
     "node": ">=8"
   },
-  "author": "Essem <essem@essem.space>",
+  "author": "teampopplio",
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 const ffmpeg = require("fluent-ffmpeg");
 
-module.exports = (filename, handle) => {
+module.exports = (filename) => {
   return new Promise((resolve, reject) => {
     const outputFilename = `./cache/${Math.random().toString(36).substring(2, 15)}-output.mp4`;
     ffmpeg.ffprobe(filename, (error, metadata) => {
@@ -43,7 +43,7 @@ module.exports = (filename, handle) => {
         filter: "drawtext",
         options: {
           fontfile: "'./assets/DejaVuSans.ttf'",
-          text: "@this__vid3",
+          text: "YTP Minus",
           fontcolor: "white",
           fontsize: outputFontSize.toString(),
           box: "1",
@@ -58,7 +58,7 @@ module.exports = (filename, handle) => {
         filter: "drawtext",
         options: {
           fontfile: "'./assets/DejaVuSans.ttf'",
-          text: `@${handle}`,
+          text: `TeamPopplio`,
           fontcolor: "white",
           fontsize: outputFontSize.toString(),
           box: "1",
@@ -73,7 +73,7 @@ module.exports = (filename, handle) => {
         filter: "drawtext",
         options: {
           fontfile: "'./assets/DejaVuSans-Bold.ttf'",
-          text: "Downloaded using @this__vid3",
+          text: "Generated using YTP-",
           fontcolor: "white@0.3",
           fontsize: outputFontSize.toString(),
           shadowcolor: "black",
@@ -88,7 +88,7 @@ module.exports = (filename, handle) => {
         filter: "drawtext",
         options: {
           fontfile: "'./assets/Topaz.ttf'",
-          text: "This video was downloaded using @this__vid3. Any unauthorized usage or reupload of this video is disallowed by @this__vid3 Enterprises. Visit https//twitter.com/this__vid3 for more information.",
+          text: "This video was generated using YTP-. Any unauthorized usage or reupload of this video is disallowed by YTP Plus Enterprises. Visit https//github.com/YTP-Plus/YTPMinus for more information.",
           fontcolor: "white",
           fontsize: outputFontSize.toString(),
           y: "h-line_h-10",
