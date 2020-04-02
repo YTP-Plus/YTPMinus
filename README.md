@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">YTP-</h1>
-  <h2 align="center">The best YouTube Poop generator out there!</h2>
+  <h2 align="center">The legacy of an April Fools joke :)</h2>
   <p align="center">
     <a href="https://discord.gg/bzhzRmg"><img alt="YTP+ Hub" src="https://img.shields.io/discord/641428540486844417"></a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/YTP-Plus/YTPMinus">
@@ -8,8 +8,8 @@
   </p>
 </p>
 
-## YTP- is an iteration of [YTP+](https://github.com/philosophofee/YTPPlus)
-### It includes new features and benefits over the previous iteration, such as:
+## YTP- is a parody of [YTP+](https://github.com/philosophofee/YTPPlus)
+### It includes:
 
   - Watermarking so nobody steals your creation
   - Downscaling so you can send it through services like Discord easily
@@ -18,10 +18,10 @@
 
 ## What is YTP+ and YTP-?
 YTP+ is the name given to a set of tools to automatically generate YouTube Poop videos.
-YTP- is the name given to this bad boy right here. Generate only the highest quality YouTube Poops every imagined through AI and ``else if`` statements!
+YTP- is the name given to this tool, which I no longer support.
 
 ## How do I use YTP-?
-To get this baby going, you'll need to install a few things (Node.js, FFmpeg, and frei0r-plugins) and do some manual tinkering. Here's how to do so:
+To get this tool working, you'll need to install a few things (Node.js, FFmpeg, and frei0r-plugins) and do some manual tinkering. Here's how to do so:
 - **Step 1:** Download the latest release from <https://github.com/YTP-Plus/YTPMinus/releases>
 - **Step 2:** Download the latest FFmpeg binaries (FFmpeg-x86_64) from <https://oss.netfarm.it/mplayer/> and only there
 - **Step 3:** Download the latest frei0r-plugins-x86_64 from <https://oss.netfarm.it/mplayer/> as well
@@ -37,9 +37,6 @@ You should now be able to drag a video file (preferably an MP4 that is in the sa
 If you come across any issues, don't hesitate to ask for help in the [YTP+ Hub Discord](https://discord.gg/bzhzRmg).
 
 You should now have YTP- ready to use, have fun!
-
-## Does it support Mac or Linux?
-As long as you can get the required parameters correct in the same order as seen above, you can do it. I believe in you!
 
 ## Disclaimer
 This software is a parody based off of [@this_vid3](https://github.com/T-P0ser/this__vid3). However, [the YTP+ set of applications](https://github.com/YTP-Plus) is not, try them out for yourself or maybe join the [Discord server](https://discord.gg/bzhzRmg)!
